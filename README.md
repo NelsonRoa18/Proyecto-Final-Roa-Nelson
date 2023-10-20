@@ -37,3 +37,47 @@ Este proyecto fue llevado a cabo para el curso de Desarrollo Web de [Coderhouse]
 # Link
 
 [Escabianding4ever](https://nelsonroa18.github.io/Proyecto-Final-Roa-Nelson/)
+
+
+---
+
+
+# Final-Project-Roa-Nelson
+
+This project was carried out for the Web Development course of [Coderhouse](https://www.coderhouse.com/)
+
+# Technologies used
+
+► HTML5: To structure the content of the web page.
+
+► CSS3: To style and design the page.
+
+► Bootstrap: For the creation of a responsive design and reusable components.
+
+► Git: For version control and tracking of code changes.
+
+► GitHub Gitignore: Configured to prevent tracking of unnecessary files in the repository.
+
+► Node.js: Platform to execute compilation and automation tasks.
+
+► Sass: CSS preprocessor for easy writing and maintenance of CSS code
+
+# Project Structure
+
+► index.html: The main file that contains the content of the page.
+
+► pages/: Directory containing the complementary pages to the main page.
+
+► css/: Directory containing custom CSS files.
+
+► bootstrap/: Directory that contains the Bootstrap files (you can use a CDN if you prefer).
+
+► assets/images/: Directory for storing images and other multimedia resources.
+
+► package.json: Node.js configuration file that specifies dependencies and scripts.
+
+► gitignore: Git configuration file for specifying files and directories that should not be crawled.
+
+# Link
+
+[Escabianding4ever](https://nelsonroa18.github.io/Proyecto-Final-Roa-Nelson/)
