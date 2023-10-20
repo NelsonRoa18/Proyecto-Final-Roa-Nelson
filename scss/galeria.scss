@@ -1,0 +1,280 @@
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+// 3. Include remainder of required parts
+
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// 4. Import mixins.scss 
+
+@import "../scss/_mixins.scss";
+
+// 5, Import variable.scss
+
+@import "../scss/_variables.scss";
+
+
+/* Animaciones de galeria fotos y texto*/
+
+
+
+.anim__imagengaleria {
+
+	position: relative;
+	overflow: hidden;
+	padding: 1.5rem;
+}
+
+.anim__imagengaleria:hover {
+
+	img {
+		transform: scale(1.09);
+		-webkit-box-shadow: 0px 0px 5px 3px rgba(173, 170, 173, 1);
+		box-shadow: 0px 0px 5px 3px rgb(249, 249, 249);
+	}
+
+}
+
+.anim__imagengaleria {
+
+	img {
+		width: 90%;
+		height: 361px;
+		transition: all .5s;
+	}
+
+}
+
+.anim__textgaleria {
+
+	position: relative;
+	overflow: inherit;
+	padding: 1rem;
+
+}
+
+.anim__textgaleria:hover {
+	h3 {
+		transform: scale(1.15);
+	}
+
+	p {
+		transform: scale(1.15);
+	}
+}
+
+.anim__textgaleria {
+
+	h3,
+	p {
+		width: 90%;
+		transition: all .5s;
+
+	}
+
+	h3 {
+		padding-bottom: 2rem;
+	}
+}
+
+@include media-breakpoint-only (xs) {
+
+	.img__logo__header {
+		width: $width-logo;
+	}
+
+	h6 {
+		font-size: medium;
+	}
+
+    /* Navbar*/
+    
+	div.row div.text-md-center {
+		font-size: x-small;
+	}
+
+	.vista__desktop {
+		display: none;
+	}
+
+
+	.redes__nav {
+		@include flex-row-start;
+	}
+
+
+	/* html galeria */
+
+	.titulos__tragos {
+		text-align: center;
+	}
+
+	.titulos__descripcion h3 {
+		font-size: small;
+	}
+
+	.descripcion__tragos p {
+		font-size: x-small;
+	}
+
+
+	.anim__imagengaleria {
+		padding: 1rem;
+
+		img {
+			height: 200px;
+		}
+
+	}
+
+	.anim__textgaleria:hover {
+		h3 {
+			transform: scale(1.09);
+		}
+
+		p {
+			transform: scale(1.07);
+		}
+	}
+
+	.anim__textgaleria {
+
+		h3,
+		p {
+			width: 100%;
+			transition: all .5s;
+
+		}
+
+		h3 {
+			padding-bottom: 0.5rem;
+		}
+
+		p {
+			padding-bottom: 0.5rem;
+		}
+
+	}
+
+}
+
+/* vista mobile */
+
+@include media-breakpoint-only(sm) {
+
+	.img__logo__header {
+		width: $width-logo;
+	}
+
+	h6 {
+		font-size: medium;
+	}
+
+    /* Navbar */
+
+	div.row div.text-md-center {
+		font-size: x-small;
+	}
+
+	.vista__desktop {
+		display: none;
+	}
+
+
+	.redes__nav {
+		@include flex-row-start;
+
+	}
+
+
+	/* html galeria */
+	.titulos__tragos {
+
+		text-align: center;
+	}
+
+	.titulos__descripcion h3 {
+		font-size: small;
+	}
+
+	.descripcion__tragos p {
+		font-size: x-small;
+	}
+
+
+	/* Animaciones en fotos y texto de galeria*/
+
+	.anim__imagengaleria {
+
+		padding: 1rem;
+
+		img {
+			height: 200px;
+		}
+	}
+
+	.anim__textgaleria:hover {
+		h3 {
+			transform: scale(1.09);
+		}
+
+		p {
+			transform: scale(1.07);
+		}
+	}
+
+	.anim__textgaleria {
+
+		h3,
+		p {
+			width: 100%;
+			transition: all .5s;
+		}
+
+		h3 {
+			padding-bottom: 0.5rem;
+		}
+
+	}
+
+
+}
+
+/* vista desktop */
+
+@include media-breakpoint-only(md) {
+
+	.navbar__mobile {
+		display: none;
+	}
+
+}
+
+/* vista desktop */
+
+@include media-breakpoint-only(lg) {
+	.navbar__mobile {
+		display: none;
+	}
+
+}
+
+@include media-breakpoint-only(xl) {
+	.navbar__mobile {
+		display: none;
+	}
+
+}
+
+@include media-breakpoint-only (xxl) {
+	.navbar__mobile {
+		display: none;
+	}
+}
