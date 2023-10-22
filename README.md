@@ -1,4 +1,4 @@
-# Proyecto-Final-Roa-Nelson
+# Proyecto Final Roa Nelson
 
 Este proyecto fue llevado a cabo para el curso de Desarrollo Web de [Coderhouse](https://www.coderhouse.com/)
 
@@ -44,7 +44,7 @@ Este proyecto fue llevado a cabo para el curso de Desarrollo Web de [Coderhouse]
 ---
 
 
-# Final-Project-Roa-Nelson
+# Final Project Roa Nelson
 
 This project was carried out for the Web Development course of [Coderhouse](https://www.coderhouse.com/)
 
