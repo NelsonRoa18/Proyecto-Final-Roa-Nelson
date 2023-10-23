@@ -1,4 +1,4 @@
-# Proyecto-Final-Roa-Nelson
+# Proyecto Final Roa Nelson
 
 Este proyecto fue llevado a cabo para el curso de Desarrollo Web de [Coderhouse](https://www.coderhouse.com/)
 
@@ -36,13 +36,15 @@ Este proyecto fue llevado a cabo para el curso de Desarrollo Web de [Coderhouse]
 
 # Link
 
-[Escabianding4ever](https://nelsonroa18.github.io/Proyecto-Final-Roa-Nelson/)
+[Escabianding4ever](https://nelsonroa18.github.io/Proyecto-Final-Roa-Nelson/) (Github page)
+
+[Escabianding4ever](http://escabianding4ever.free.nf/) (InfinityFree page)
 
 
 ---
 
 
-# Final-Project-Roa-Nelson
+# Final Project Roa Nelson
 
 This project was carried out for the Web Development course of [Coderhouse](https://www.coderhouse.com/)
 
@@ -80,4 +82,6 @@ This project was carried out for the Web Development course of [Coderhouse](http
 
 # Link
 
-[Escabianding4ever](https://nelsonroa18.github.io/Proyecto-Final-Roa-Nelson/)
+[Escabianding4ever](https://nelsonroa18.github.io/Proyecto-Final-Roa-Nelson/) (Github page)
+
+[Escabianding4ever](http://escabianding4ever.free.nf/) (InfinityFree page)
