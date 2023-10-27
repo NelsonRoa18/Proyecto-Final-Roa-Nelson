@@ -7235,6 +7235,10 @@ p {
     flex-direction: row;
     justify-content: start;
   }
+  .copyright__footer {
+    text-align: center;
+    font-size: x-small;
+  }
   /* html nosotros */
   section.sobre_nosotros h2, section.sobre_nosotros .h2 {
     font-size: x-large;
