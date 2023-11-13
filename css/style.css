@@ -7298,16 +7298,25 @@ p {
   .navbar__mobile {
     display: none;
   }
+  .mapa {
+    height: 400px;
+  }
 }
 /* vista desktop */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar__mobile {
     display: none;
   }
+  .mapa {
+    height: 400px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .navbar__mobile {
     display: none;
+  }
+  .mapa {
+    height: 400px;
   }
 }
 @media (min-width: 1400px) {

@@ -296,6 +296,9 @@ p {
 		display: none;
 	}
 
+	.mapa {
+		height: 400px;
+	}
 }
 
 /* vista desktop */
@@ -305,13 +308,20 @@ p {
 		display: none;
 	}
 
+	.mapa {
+		height: 400px;
+	}
+
 }
 
 @include media-breakpoint-only(xl) {
 	.navbar__mobile {
 		display: none;
 	}
-
+	
+	.mapa {
+		height: 400px;
+	}
 }
 
 @include media-breakpoint-only (xxl) {
